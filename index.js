@@ -30,9 +30,6 @@ let persons = [
     }
 ]
 
-app.get('/', (req, res) => {
-    res.send('Phonebook')
-})
 
 app.get('/api/persons', (req, res) => {
     res.json(persons)
